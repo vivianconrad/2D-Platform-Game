@@ -1,0 +1,3009 @@
+{
+  "allowYogaMigration": true,
+  "cameraFar": 50,
+  "cameraNear": 0.009999999776482582,
+  "children": [
+    {
+      "identifier": "fonts:3357988-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "fonts"
+    },
+    {
+      "identifier": "generic_m_l_models_model:3357990-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "generic_m_l_models_model"
+    },
+    {
+      "identifier": "textures:3357992-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "textures"
+    },
+    {
+      "identifier": "materials:3357994-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "materials"
+    },
+    {
+      "identifier": "prefabs:3357996-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "prefabs"
+    },
+    {
+      "identifier": "3_d_objects_model:3357998-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "3_d_objects_model"
+    },
+    {
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": 3,
+      "children": [
+        {
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": 3,
+          "children": [
+            {
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": 3,
+              "children": [
+                {
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": 3,
+                  "children": [
+                    {
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": 3,
+                      "color": 4294967295,
+                      "hidden": false,
+                      "identifier": "ambient_light_source_model:3358076-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "intensity": 0.20000000298023224,
+                      "layerIdentifier": "layer:45-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+                      "modelName": "ambient_light_source_model",
+                      "name": "ambientLight0",
+                      "outputVisibility": 3,
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      }
+                    },
+                    {
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": 3,
+                      "castShadow": false,
+                      "color": 4294967295,
+                      "hidden": false,
+                      "identifier": "directional_light_source_model:3358078-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "intensity": 0.800000011920929,
+                      "layerIdentifier": "layer:45-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+                      "modelName": "directional_light_source_model",
+                      "name": "directionalLight0",
+                      "outputVisibility": 3,
+                      "shadowBias": 0,
+                      "shadowFrustumDepth": 1,
+                      "shadowFrustumSize": 0.5,
+                      "shadowNear": 0.05,
+                      "shadowStrength": 1,
+                      "shadowTextureSize": 256,
+                      "tags": [],
+                      "transform": {
+                        "rx": -0.7853981633974483,
+                        "ry": 0.08726646259971647,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0.03,
+                        "y": 0.25,
+                        "z": 0.3
+                      }
+                    }
+                  ],
+                  "hidden": false,
+                  "identifier": "focalDistance:3358064-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                  "layerIdentifier": "layer:45-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+                  "modelName": "focalDistance",
+                  "name": "Focal Distance",
+                  "outputVisibility": 3,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": -0.5361266732215881
+                  }
+                }
+              ],
+              "hidden": false,
+              "identifier": "camera:3358062-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+              "modelName": "camera",
+              "name": "Camera",
+              "outputVisibility": 3,
+              "projectionType": 0,
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "updateSource": 2
+            }
+          ],
+          "hidden": false,
+          "identifier": "device:3358060-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+          "modelName": "device",
+          "name": "Device",
+          "outputVisibility": 3,
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": 3,
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "identifier": "port_value_type_info_model:3380292-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "modelName": "port_value_type_info_model",
+                      "rawSubtype": 0,
+                      "type": 2
+                    },
+                    {
+                      "identifier": "port_widget_style_info_model:3380294-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "modelName": "port_widget_style_info_model",
+                      "widgetStyle": 0
+                    }
+                  ],
+                  "defaultValue": {
+                    "type": 2,
+                    "value": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "identifier": "block_port_model:3380286-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                  "isDefaultPort": false,
+                  "modelName": "block_port_model",
+                  "name": "blockInput0",
+                  "portTag": 8187170609390740963
+                }
+              ],
+              "identifier": "block_inputs_model:3358068-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+              "modelName": "block_inputs_model"
+            },
+            {
+              "identifier": "block_outputs_model:3358070-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+              "modelName": "block_outputs_model"
+            },
+            {
+              "description": "",
+              "displayName": "Block",
+              "identifier": "block_metadata_model:3358072-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+              "modelName": "block_metadata_model"
+            },
+            {
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": 3,
+              "children": [
+                {
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": 3,
+                  "children": [
+                    {
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": 3,
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": 1,
+                      "horizontalSpacing": 0,
+                      "identifier": "plane:2166532-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer:45-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+                      "modelName": "plane",
+                      "name": "Left Side",
+                      "outputVisibility": 3,
+                      "receiveShadow": false,
+                      "renderPass": 2,
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": 1,
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": 3,
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": 1,
+                      "horizontalSpacing": 0,
+                      "identifier": "plane:2166536-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer:45-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+                      "modelName": "plane",
+                      "name": "Right Side",
+                      "outputVisibility": 3,
+                      "receiveShadow": false,
+                      "renderPass": 2,
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": 1,
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": 3,
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": 1,
+                      "horizontalSpacing": 0,
+                      "identifier": "plane:2166540-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer:45-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+                      "modelName": "plane",
+                      "name": "Result",
+                      "outputVisibility": 3,
+                      "receiveShadow": false,
+                      "renderPass": 2,
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": 1,
+                      "verticalSpacing": 0
+                    },
+                    {
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": 3,
+                      "castShadow": false,
+                      "hidden": false,
+                      "horizontalAlignment": 1,
+                      "horizontalSpacing": 0,
+                      "identifier": "plane:2169506-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "isMaterialIdentifierEnabled": true,
+                      "layerIdentifier": "layer:45-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+                      "modelName": "plane",
+                      "name": "OR",
+                      "outputVisibility": 3,
+                      "receiveShadow": false,
+                      "renderPass": 2,
+                      "tags": [],
+                      "textureHeight": 0.1,
+                      "textureWidth": 0.1,
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "verticalAlignment": 1,
+                      "verticalSpacing": 0
+                    }
+                  ],
+                  "hidden": false,
+                  "identifier": "sceneObject18830-e1bcce23-f39e-4e0f-9a01-67cf19ce4542",
+                  "layerIdentifier": "layer:45-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+                  "modelName": "sceneObject",
+                  "name": "dragHere",
+                  "outputVisibility": 3,
+                  "shapeColor": 4286611584,
+                  "shapeType": 0,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                }
+              ],
+              "faceId": 0,
+              "hidden": false,
+              "identifier": "facetracker:421-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+              "layerIdentifier": "layer:45-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+              "modelName": "facetracker",
+              "name": "faceTracker0",
+              "outputVisibility": 3,
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": 0
+              }
+            }
+          ],
+          "hidden": false,
+          "identifier": "block_root_object_model:3358066-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+          "modelName": "block_root_object_model",
+          "name": "Block Root",
+          "outputVisibility": 3,
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "hidden": false,
+      "identifier": "scene:3358000-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "scene",
+      "outputVisibility": 3,
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "children": [
+        {
+          "color": 4287394507,
+          "generationIndex": 0,
+          "hidden": false,
+          "identifier": "layer:45-544c31eb-70cb-4054-a7e5-abd0bc04e7fe",
+          "modelName": "layer",
+          "name": "layer0"
+        }
+      ],
+      "identifier": "layers:3358002-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "layers"
+    },
+    {
+      "identifier": "animations_model:3358004-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "animations_model"
+    },
+    {
+      "identifier": "asset_collections_model:3358006-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "asset_collections_model"
+    },
+    {
+      "identifier": "neural_networks_model:3358008-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "neural_networks_model"
+    },
+    {
+      "identifier": "components_model:3358010-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "components_model"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "identifier": "patches_model:305505-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patches_model"
+                                },
+                                {
+                                  "identifier": "connections_model:305507-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "connections_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305525-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 1,
+                                          "type": 2
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305527-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": true,
+                                          "hiddenConnection": true,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305529-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": false,
+                                          "isVariant": true,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "signal",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 2,
+                                        "value": [
+                                          0,
+                                          0,
+                                          0
+                                        ]
+                                      },
+                                      "identifier": "port_model:305517-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "name": "3D Position",
+                                      "portTag": 1
+                                    }
+                                  ],
+                                  "identifier": "patch_input_ports_model:305509-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patch_input_ports_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305539-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 1,
+                                          "type": 2
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305541-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": false,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305543-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": false,
+                                          "isVariant": true,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "signal",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 2,
+                                        "value": [
+                                          0,
+                                          0,
+                                          0
+                                        ]
+                                      },
+                                      "identifier": "port_model:305531-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "name": "3D Position",
+                                      "portTag": 2
+                                    }
+                                  ],
+                                  "identifier": "patch_output_ports_model:305511-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patch_output_ports_model"
+                                },
+                                {
+                                  "hidden": false,
+                                  "identifier": "patch_metadata_model:305515-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "internalGroup": false,
+                                  "modelName": "patch_metadata_model",
+                                  "position": [
+                                    0,
+                                    0
+                                  ],
+                                  "preferredGenericType": 0
+                                }
+                              ],
+                              "dataModelIdentifier": "sceneObject18830-e1bcce23-f39e-4e0f-9a01-67cf19ce4542",
+                              "identifier": "patch_model:305503-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "patch_model",
+                              "name": "3D Position",
+                              "propertyIdentifier": "position",
+                              "prototype": "builtin.group.input"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "patches_model:305547-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patches_model"
+                                },
+                                {
+                                  "identifier": "connections_model:305549-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "connections_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305569-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 2
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305571-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": false,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305573-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": false,
+                                          "isVariant": false,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "point",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 2,
+                                        "value": [
+                                          0,
+                                          0,
+                                          0
+                                        ]
+                                      },
+                                      "identifier": "port_model:305561-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "name": "3D Point",
+                                      "portTag": 1
+                                    }
+                                  ],
+                                  "identifier": "patch_input_ports_model:305551-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patch_input_ports_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305583-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 0
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305585-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": false,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305587-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": false,
+                                          "isVariant": false,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "x",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 0,
+                                        "value": 0
+                                      },
+                                      "identifier": "port_model:305575-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "name": "X",
+                                      "portTag": 100
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305597-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 0
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305599-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": false,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305601-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": false,
+                                          "isVariant": false,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "y",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 0,
+                                        "value": 0
+                                      },
+                                      "identifier": "port_model:305589-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "name": "Y",
+                                      "portTag": 101
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305611-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 0
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305613-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": false,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305615-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": false,
+                                          "isVariant": false,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "z",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 0,
+                                        "value": 0
+                                      },
+                                      "identifier": "port_model:305603-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "name": "Z",
+                                      "portTag": 102
+                                    }
+                                  ],
+                                  "identifier": "patch_output_ports_model:305553-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patch_output_ports_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "category": "Utility",
+                                      "excludeFromInsertMenu": true,
+                                      "identifier": "patch_library_metadata_model:305559-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "patch_library_metadata_model"
+                                    }
+                                  ],
+                                  "hidden": false,
+                                  "identifier": "patch_metadata_model:305557-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "internalGroup": false,
+                                  "modelName": "patch_metadata_model",
+                                  "position": [
+                                    0,
+                                    0
+                                  ],
+                                  "preferredGenericType": 0
+                                }
+                              ],
+                              "dataModelIdentifier": "sceneObject18830-e1bcce23-f39e-4e0f-9a01-67cf19ce4542",
+                              "identifier": "patch_model:305545-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "patch_model",
+                              "name": "Point Unpack",
+                              "propertyIdentifier": "position",
+                              "prototype": "builtin.pointSignal"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "patches_model:305619-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patches_model"
+                                },
+                                {
+                                  "identifier": "connections_model:305621-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "connections_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305641-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 6
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305643-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": true,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305645-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": true,
+                                          "isVariant": false,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "identifier",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 6,
+                                        "value": ""
+                                      },
+                                      "identifier": "port_model:305633-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "name": "Identifier",
+                                      "portTag": 3
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305655-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 0
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305657-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": false,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305659-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": false,
+                                          "isVariant": false,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "signal",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 0,
+                                        "value": 0
+                                      },
+                                      "identifier": "port_model:305647-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "portTag": 2
+                                    }
+                                  ],
+                                  "identifier": "patch_input_ports_model:305623-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patch_input_ports_model"
+                                },
+                                {
+                                  "identifier": "patch_output_ports_model:305625-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patch_output_ports_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "excludeFromInsertMenu": true,
+                                      "identifier": "patch_library_metadata_model:305631-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "patch_library_metadata_model"
+                                    }
+                                  ],
+                                  "hidden": false,
+                                  "identifier": "patch_metadata_model:305629-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "internalGroup": false,
+                                  "modelName": "patch_metadata_model",
+                                  "position": [
+                                    0,
+                                    0
+                                  ],
+                                  "preferredGenericType": 0
+                                }
+                              ],
+                              "dataModelIdentifier": "sceneObject18830-e1bcce23-f39e-4e0f-9a01-67cf19ce4542",
+                              "identifier": "patch_model:305617-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "patch_model",
+                              "name": "Position X",
+                              "propertyIdentifier": "position",
+                              "prototype": "builtin.sceneObjectPositionX"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "patches_model:305663-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patches_model"
+                                },
+                                {
+                                  "identifier": "connections_model:305665-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "connections_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305685-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 6
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305687-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": true,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305689-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": true,
+                                          "isVariant": false,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "identifier",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 6,
+                                        "value": ""
+                                      },
+                                      "identifier": "port_model:305677-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "name": "Identifier",
+                                      "portTag": 3
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305699-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 0
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305701-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": false,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305703-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": false,
+                                          "isVariant": false,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "signal",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 0,
+                                        "value": 0
+                                      },
+                                      "identifier": "port_model:305691-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "portTag": 2
+                                    }
+                                  ],
+                                  "identifier": "patch_input_ports_model:305667-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patch_input_ports_model"
+                                },
+                                {
+                                  "identifier": "patch_output_ports_model:305669-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patch_output_ports_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "excludeFromInsertMenu": true,
+                                      "identifier": "patch_library_metadata_model:305675-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "patch_library_metadata_model"
+                                    }
+                                  ],
+                                  "hidden": false,
+                                  "identifier": "patch_metadata_model:305673-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "internalGroup": false,
+                                  "modelName": "patch_metadata_model",
+                                  "position": [
+                                    0,
+                                    0
+                                  ],
+                                  "preferredGenericType": 0
+                                }
+                              ],
+                              "dataModelIdentifier": "sceneObject18830-e1bcce23-f39e-4e0f-9a01-67cf19ce4542",
+                              "identifier": "patch_model:305661-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "patch_model",
+                              "name": "Position Y",
+                              "propertyIdentifier": "position",
+                              "prototype": "builtin.sceneObjectPositionY"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "patches_model:305707-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patches_model"
+                                },
+                                {
+                                  "identifier": "connections_model:305709-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "connections_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305729-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 6
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305731-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": true,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305733-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": true,
+                                          "isVariant": false,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "identifier",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 6,
+                                        "value": ""
+                                      },
+                                      "identifier": "port_model:305721-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "name": "Identifier",
+                                      "portTag": 3
+                                    },
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:305743-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 0
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:305745-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": false,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:305747-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                          "isParameter": false,
+                                          "isVariant": false,
+                                          "modelName": "port_metadata_model",
+                                          "portName": "signal",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 0,
+                                        "value": 0
+                                      },
+                                      "identifier": "port_model:305735-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "port_model",
+                                      "portTag": 2
+                                    }
+                                  ],
+                                  "identifier": "patch_input_ports_model:305711-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patch_input_ports_model"
+                                },
+                                {
+                                  "identifier": "patch_output_ports_model:305713-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "patch_output_ports_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "excludeFromInsertMenu": true,
+                                      "identifier": "patch_library_metadata_model:305719-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                      "modelName": "patch_library_metadata_model"
+                                    }
+                                  ],
+                                  "hidden": false,
+                                  "identifier": "patch_metadata_model:305717-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "internalGroup": false,
+                                  "modelName": "patch_metadata_model",
+                                  "position": [
+                                    0,
+                                    0
+                                  ],
+                                  "preferredGenericType": 0
+                                }
+                              ],
+                              "dataModelIdentifier": "sceneObject18830-e1bcce23-f39e-4e0f-9a01-67cf19ce4542",
+                              "identifier": "patch_model:305705-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "patch_model",
+                              "name": "Position Z",
+                              "propertyIdentifier": "position",
+                              "prototype": "builtin.sceneObjectPositionZ"
+                            }
+                          ],
+                          "identifier": "patches_model:305489-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                          "modelName": "patches_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "fromPatch": "patch_model:305487-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "fromPort": "port_model:305749-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "identifier": "connection_model:305763-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "connection_model",
+                              "toPatch": "patch_model:305503-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "toPort": "port_model:305517-e4e83155-9b24-4d75-88e8-b95459b63c3b"
+                            },
+                            {
+                              "fromPatch": "patch_model:305503-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "fromPort": "port_model:305531-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "identifier": "connection_model:305765-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "connection_model",
+                              "toPatch": "patch_model:305545-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "toPort": "port_model:305561-e4e83155-9b24-4d75-88e8-b95459b63c3b"
+                            },
+                            {
+                              "fromPatch": "patch_model:305545-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "fromPort": "port_model:305575-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "identifier": "connection_model:305767-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "connection_model",
+                              "toPatch": "patch_model:305617-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "toPort": "port_model:305647-e4e83155-9b24-4d75-88e8-b95459b63c3b"
+                            },
+                            {
+                              "fromPatch": "patch_model:305545-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "fromPort": "port_model:305589-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "identifier": "connection_model:305769-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "connection_model",
+                              "toPatch": "patch_model:305661-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "toPort": "port_model:305691-e4e83155-9b24-4d75-88e8-b95459b63c3b"
+                            },
+                            {
+                              "fromPatch": "patch_model:305545-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "fromPort": "port_model:305603-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "identifier": "connection_model:305771-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "connection_model",
+                              "toPatch": "patch_model:305705-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "toPort": "port_model:305735-e4e83155-9b24-4d75-88e8-b95459b63c3b"
+                            }
+                          ],
+                          "identifier": "connections_model:305491-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                          "modelName": "connections_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:305757-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 1,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:305759-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:305761-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "signal",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:305749-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "port_model",
+                              "name": "3D Position",
+                              "portTag": 101
+                            }
+                          ],
+                          "identifier": "patch_input_ports_model:305493-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                          "modelName": "patch_input_ports_model"
+                        },
+                        {
+                          "identifier": "patch_output_ports_model:305495-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                          "modelName": "patch_output_ports_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "excludeFromInsertMenu": true,
+                              "identifier": "patch_library_metadata_model:305501-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                              "modelName": "patch_library_metadata_model"
+                            }
+                          ],
+                          "hidden": false,
+                          "identifier": "patch_metadata_model:305499-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                          "internalGroup": false,
+                          "modelName": "patch_metadata_model",
+                          "position": [
+                            908,
+                            -268
+                          ],
+                          "preferredGenericType": 0
+                        }
+                      ],
+                      "dataModelIdentifier": "sceneObject18830-e1bcce23-f39e-4e0f-9a01-67cf19ce4542",
+                      "identifier": "patch_model:305487-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                      "modelName": "patch_model",
+                      "name": "3D Position",
+                      "propertyIdentifier": "position",
+                      "prototype": "builtin.group.position"
+                    },
+                    {
+                      "children": [
+                        {
+                          "identifier": "patches_model:1139001-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "patches_model"
+                        },
+                        {
+                          "identifier": "connections_model:1139003-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "connections_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139023-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 5
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139025-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": true,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139027-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": true,
+                                  "isVariant": false,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "inputsCount",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 5,
+                                "value": 2
+                              },
+                              "identifier": "port_model:1139015-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "Inputs Count",
+                              "portTag": 0
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139037-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 5
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139039-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": true,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139041-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": true,
+                                  "isVariant": false,
+                                  "modelName": "port_metadata_model",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 5,
+                                "value": 2
+                              },
+                              "identifier": "port_model:1139029-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "Ports Count",
+                              "portTag": 1000
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139051-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139053-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "about": "The value for each option. You can add 2 to 8 inputs.",
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139055-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "value1",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:1139043-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "portTag": 1
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139065-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139067-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139069-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "value2",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:1139057-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "portTag": 2
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139079-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139081-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139083-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "value3",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:1139071-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "portTag": 3
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139093-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139095-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139097-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "value4",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:1139085-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "portTag": 4
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139107-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139109-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139111-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "value5",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:1139099-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "portTag": 5
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139121-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139123-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139125-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "value6",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:1139113-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "portTag": 6
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139135-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139137-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139139-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "value7",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:1139127-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "portTag": 7
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139149-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139151-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139153-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "value8",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:1139141-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "portTag": 8
+                            }
+                          ],
+                          "identifier": "patch_input_ports_model:1139005-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "patch_input_ports_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:1139163-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:1139165-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "about": "The calculated result value.",
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:1139167-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "output",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:1139155-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "Output",
+                              "portTag": 100
+                            }
+                          ],
+                          "identifier": "patch_output_ports_model:1139007-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "patch_output_ports_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "category": "Math",
+                              "excludeFromInsertMenu": false,
+                              "identifier": "patch_library_metadata_model:1139013-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "patch_library_metadata_model"
+                            }
+                          ],
+                          "hidden": false,
+                          "identifier": "patch_metadata_model:1139011-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "internalGroup": false,
+                          "modelName": "patch_metadata_model",
+                          "position": [
+                            548,
+                            -196
+                          ],
+                          "preferredGenericType": 0,
+                          "variadicPortInfo": [
+                            true,
+                            2,
+                            8
+                          ]
+                        }
+                      ],
+                      "dataModelIdentifier": "",
+                      "identifier": "patch_model:1138999-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "modelName": "patch_model",
+                      "name": "Add",
+                      "propertyIdentifier": "",
+                      "prototype": "builtin.variadicMathAdd"
+                    },
+                    {
+                      "children": [
+                        {
+                          "identifier": "patches_model:3380298-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "patches_model"
+                        },
+                        {
+                          "identifier": "connections_model:3380300-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "connections_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:3380320-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 6
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:3380322-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": true,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:3380324-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": true,
+                                  "isVariant": false,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "name",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 6,
+                                "value": ""
+                              },
+                              "identifier": "port_model:3380312-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "Name",
+                              "portTag": 1
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:3380334-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:3380336-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": true,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:3380338-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": true,
+                                  "isVariant": false,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "type",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:3380326-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "Type",
+                              "portTag": 2
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:3380348-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:3380350-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": true,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:3380352-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": true,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "value",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:3380340-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "Value",
+                              "portTag": 3
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:3380362-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:3380364-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": true,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:3380366-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": true,
+                                  "isVariant": false,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "minValue",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:3380354-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "Min Value",
+                              "portTag": 4
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:3380376-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:3380378-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": true,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:3380380-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": true,
+                                  "isVariant": false,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "maxValue",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:3380368-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "Max Value",
+                              "portTag": 5
+                            }
+                          ],
+                          "identifier": "patch_input_ports_model:3380302-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "patch_input_ports_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "identifier": "port_value_type_info_model:3380390-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:3380392-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                },
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:3380394-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "portName": "output",
+                                  "preferValueOverTitle": false
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:3380382-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "Input Value",
+                              "portTag": 100
+                            }
+                          ],
+                          "identifier": "patch_output_ports_model:3380304-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "patch_output_ports_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "excludeFromInsertMenu": true,
+                              "identifier": "patch_library_metadata_model:3380310-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "patch_library_metadata_model"
+                            }
+                          ],
+                          "hidden": true,
+                          "identifier": "patch_metadata_model:3380308-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "internalGroup": false,
+                          "modelName": "patch_metadata_model",
+                          "position": [
+                            0,
+                            0
+                          ],
+                          "preferredGenericType": 0
+                        }
+                      ],
+                      "dataModelIdentifier": "block_port_model:3380286-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "identifier": "patch_model:3380296-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "modelName": "patch_model",
+                      "name": "Block Input",
+                      "propertyIdentifier": "blockInputInside",
+                      "prototype": "builtin.blockInputInside"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "identifier": "patches_model:3380434-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "patches_model"
+                                },
+                                {
+                                  "identifier": "connections_model:3380436-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "connections_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:3380452-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 2
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:3380454-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": true,
+                                          "hiddenConnection": true,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:3380456-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "isParameter": false,
+                                          "isVariant": true,
+                                          "modelName": "port_metadata_model",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 2,
+                                        "value": [
+                                          0,
+                                          0,
+                                          0
+                                        ]
+                                      },
+                                      "identifier": "port_model:3380444-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                      "modelName": "port_model",
+                                      "name": "blockInput0",
+                                      "portTag": 1
+                                    }
+                                  ],
+                                  "identifier": "patch_input_ports_model:3380438-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "patch_input_ports_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:3380466-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 2
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:3380468-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": false,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:3380470-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "isParameter": false,
+                                          "isVariant": true,
+                                          "modelName": "port_metadata_model",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 2,
+                                        "value": [
+                                          0,
+                                          0,
+                                          0
+                                        ]
+                                      },
+                                      "identifier": "port_model:3380458-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                      "modelName": "port_model",
+                                      "name": "blockInput0",
+                                      "portTag": 2
+                                    }
+                                  ],
+                                  "identifier": "patch_output_ports_model:3380440-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "patch_output_ports_model"
+                                },
+                                {
+                                  "hidden": false,
+                                  "identifier": "patch_metadata_model:3380442-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "internalGroup": false,
+                                  "modelName": "patch_metadata_model",
+                                  "position": [
+                                    0,
+                                    0
+                                  ],
+                                  "preferredGenericType": 0
+                                }
+                              ],
+                              "identifier": "patch_model:3380432-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "patch_model",
+                              "name": "blockInput0",
+                              "prototype": "builtin.group.input"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "identifier": "patches_model:3380474-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "patches_model"
+                                },
+                                {
+                                  "identifier": "connections_model:3380476-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "connections_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:3380492-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 2
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:3380494-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": false,
+                                          "hiddenConnection": false,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:3380496-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "isParameter": false,
+                                          "isVariant": true,
+                                          "modelName": "port_metadata_model",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 2,
+                                        "value": [
+                                          0,
+                                          0,
+                                          0
+                                        ]
+                                      },
+                                      "identifier": "port_model:3380484-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                      "modelName": "port_model",
+                                      "name": "blockInput0",
+                                      "portTag": 1
+                                    }
+                                  ],
+                                  "identifier": "patch_input_ports_model:3380478-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "patch_input_ports_model"
+                                },
+                                {
+                                  "children": [
+                                    {
+                                      "children": [
+                                        {
+                                          "identifier": "port_value_type_info_model:3380506-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "modelName": "port_value_type_info_model",
+                                          "rawSubtype": 0,
+                                          "type": 2
+                                        },
+                                        {
+                                          "identifier": "port_widget_style_info_model:3380508-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "modelName": "port_widget_style_info_model",
+                                          "widgetStyle": 0
+                                        },
+                                        {
+                                          "deprecateGatekeeperName": "",
+                                          "gatekeeperName": "",
+                                          "hidden": true,
+                                          "hiddenConnection": true,
+                                          "hiddenValue": false,
+                                          "identifier": "port_metadata_model:3380510-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                          "isParameter": false,
+                                          "isVariant": true,
+                                          "modelName": "port_metadata_model",
+                                          "preferValueOverTitle": false
+                                        }
+                                      ],
+                                      "defaultValue": {
+                                        "type": 2,
+                                        "value": [
+                                          0,
+                                          0,
+                                          0
+                                        ]
+                                      },
+                                      "identifier": "port_model:3380498-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                      "modelName": "port_model",
+                                      "name": "blockInput0",
+                                      "portTag": 2
+                                    }
+                                  ],
+                                  "identifier": "patch_output_ports_model:3380480-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "patch_output_ports_model"
+                                },
+                                {
+                                  "hidden": false,
+                                  "identifier": "patch_metadata_model:3380482-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "internalGroup": false,
+                                  "modelName": "patch_metadata_model",
+                                  "position": [
+                                    0,
+                                    0
+                                  ],
+                                  "preferredGenericType": 0
+                                }
+                              ],
+                              "identifier": "patch_model:3380472-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "patch_model",
+                              "name": "blockInput0",
+                              "prototype": "builtin.group.output"
+                            }
+                          ],
+                          "identifier": "patches_model:3380398-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "patches_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "fromPatch": "patch_model:3380396-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "fromPort": "port_model:3380408-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "identifier": "connection_model:3380512-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "connection_model",
+                              "toPatch": "patch_model:3380432-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "toPort": "port_model:3380444-4fe7c511-d447-4f3c-82af-988efcb5cea9"
+                            },
+                            {
+                              "fromPatch": "patch_model:3380432-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "fromPort": "port_model:3380458-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "identifier": "connection_model:3380514-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "connection_model",
+                              "toPatch": "patch_model:3380472-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "toPort": "port_model:3380484-4fe7c511-d447-4f3c-82af-988efcb5cea9"
+                            },
+                            {
+                              "fromPatch": "patch_model:3380472-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "fromPort": "port_model:3380498-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "identifier": "connection_model:3380516-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "connection_model",
+                              "toPatch": "patch_model:3380396-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "toPort": "port_model:3380420-4fe7c511-d447-4f3c-82af-988efcb5cea9"
+                            }
+                          ],
+                          "identifier": "connections_model:3380400-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "connections_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": true,
+                                  "hiddenConnection": true,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:3380414-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "preferValueOverTitle": false
+                                },
+                                {
+                                  "identifier": "port_value_type_info_model:3380416-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:3380418-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:3380408-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "blockInput0",
+                              "portTag": 8187170609390740963
+                            }
+                          ],
+                          "identifier": "patch_input_ports_model:3380402-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "patch_input_ports_model"
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [
+                                {
+                                  "deprecateGatekeeperName": "",
+                                  "gatekeeperName": "",
+                                  "hidden": false,
+                                  "hiddenConnection": false,
+                                  "hiddenValue": false,
+                                  "identifier": "port_metadata_model:3380426-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "isParameter": false,
+                                  "isVariant": true,
+                                  "modelName": "port_metadata_model",
+                                  "preferValueOverTitle": false
+                                },
+                                {
+                                  "identifier": "port_value_type_info_model:3380428-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_value_type_info_model",
+                                  "rawSubtype": 0,
+                                  "type": 2
+                                },
+                                {
+                                  "identifier": "port_widget_style_info_model:3380430-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                                  "modelName": "port_widget_style_info_model",
+                                  "widgetStyle": 0
+                                }
+                              ],
+                              "defaultValue": {
+                                "type": 2,
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "identifier": "port_model:3380420-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                              "modelName": "port_model",
+                              "name": "blockInput0",
+                              "portTag": 8187170609390740963
+                            }
+                          ],
+                          "identifier": "patch_output_ports_model:3380404-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "modelName": "patch_output_ports_model"
+                        },
+                        {
+                          "hidden": false,
+                          "identifier": "patch_metadata_model:3380406-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                          "internalGroup": true,
+                          "modelName": "patch_metadata_model",
+                          "position": [
+                            278,
+                            -104
+                          ],
+                          "preferredGenericType": 0
+                        }
+                      ],
+                      "dataModelIdentifier": "block_root_object_model:3358066-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "identifier": "patch_model:3380396-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "modelName": "patch_model",
+                      "name": "Block Inputs",
+                      "propertyIdentifier": "blockInputInside"
+                    }
+                  ],
+                  "identifier": "patches_model:3380276-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                  "modelName": "patches_model"
+                },
+                {
+                  "children": [
+                    {
+                      "fromPatch": "patch_model:1138999-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "fromPort": "port_model:1139155-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "identifier": "connection_model:1139171-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "modelName": "connection_model",
+                      "toPatch": "patch_model:305487-e4e83155-9b24-4d75-88e8-b95459b63c3b",
+                      "toPort": "port_model:305749-e4e83155-9b24-4d75-88e8-b95459b63c3b"
+                    },
+                    {
+                      "fromPatch": "patch_model:3380396-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "fromPort": "port_model:3380420-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "identifier": "connection_model:3380518-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "modelName": "connection_model",
+                      "toPatch": "patch_model:1138999-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "toPort": "port_model:1139043-4fe7c511-d447-4f3c-82af-988efcb5cea9"
+                    },
+                    {
+                      "fromPatch": "patch_model:3380296-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "fromPort": "port_model:3380382-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "identifier": "connection_model:3380520-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "modelName": "connection_model",
+                      "toPatch": "patch_model:3380396-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                      "toPort": "port_model:3380408-4fe7c511-d447-4f3c-82af-988efcb5cea9"
+                    }
+                  ],
+                  "identifier": "connections_model:3380278-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                  "modelName": "connections_model"
+                },
+                {
+                  "identifier": "patch_input_ports_model:3380280-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                  "modelName": "patch_input_ports_model"
+                },
+                {
+                  "identifier": "patch_output_ports_model:3380282-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                  "modelName": "patch_output_ports_model"
+                },
+                {
+                  "hidden": false,
+                  "identifier": "patch_metadata_model:3380284-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+                  "internalGroup": false,
+                  "modelName": "patch_metadata_model",
+                  "position": [
+                    0,
+                    0
+                  ],
+                  "preferredGenericType": 0
+                }
+              ],
+              "identifier": "patch_model:3380274-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+              "modelName": "patch_model",
+              "name": "kRootPatchName"
+            }
+          ],
+          "identifier": "patch_graph_model:3380272-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+          "modelName": "patch_graph_model",
+          "valuesMap": {
+            "port_model:1139057-4fe7c511-d447-4f3c-82af-988efcb5cea9": {
+              "type": 2,
+              "value": [
+                0,
+                0.06,
+                -0.1
+              ]
+            },
+            "port_model:305749-e4e83155-9b24-4d75-88e8-b95459b63c3b": {
+              "type": 2,
+              "value": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "identifier": "patch_graphs_model:3358012-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "patch_graphs_model"
+    },
+    {
+      "identifier": "patch_assets_model:3358014-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "patch_assets_model"
+    },
+    {
+      "identifier": "render_passes_model:3358016-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "render_passes_model"
+    },
+    {
+      "identifier": "shaders:3358018-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "shaders"
+    },
+    {
+      "children": [
+        {
+          "identifier": "script_bridging_variables_model:3358022-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+          "modelName": "script_bridging_variables_model"
+        }
+      ],
+      "identifier": "scripts_model:3358020-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "scripts_model"
+    },
+    {
+      "identifier": "text_files_model:3358024-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "text_files_model"
+    },
+    {
+      "identifier": "node_packages_model:3358026-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "node_packages_model"
+    },
+    {
+      "excludeDuringExport": false,
+      "excludeFromPackage": false,
+      "identifier": "bundled_packages_model:3358028-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "bundled_packages_model"
+    },
+    {
+      "identifier": "internal_sounds_model:3358030-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "internal_sounds_model"
+    },
+    {
+      "basicCompressionAccuracy": 2,
+      "basicCompressionFormat": 0,
+      "basicCompressionMethod": 0,
+      "basicSmartQuality": 100,
+      "basicSmartTextureTargetSizeLimit": 0,
+      "etcCompressionAccuracy": 2,
+      "etcCompressionFormat": 0,
+      "etcSmartQuality": 100,
+      "etcSmartTextureTargetSizeLimit": 0,
+      "globalCompressionDefaultOn": true,
+      "globalSmartQuality": 75,
+      "globalSmartTextureTargetSizeLimit": 0,
+      "identifier": "exportConfig:3358032-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "exportConfig",
+      "pvrCompressionAccuracy": 2,
+      "pvrCompressionFormat": 0,
+      "pvrSmartQuality": 100,
+      "pvrSmartTextureTargetSizeLimit": 0,
+      "useDitheringForEtc": false,
+      "useDitheringForPvr": false,
+      "useSmartCompressionGlobally": true
+    },
+    {
+      "WOLFPrototypeInputJson": null,
+      "additionalEnabledChanges": null,
+      "assistantAppIDs": [
+        "2320137961422959"
+      ],
+      "assistantClientToken": null,
+      "assistantIncludeInDevelopmentArtifacts": false,
+      "assistantQuickTestEnabled": true,
+      "assistantStorageEnabled": true,
+      "assistantUseWit": false,
+      "audioEnableAudioGraphComponents": false,
+      "audioEnableAudioTransformationsApi": false,
+      "bodyTrackingMinVersion": 101,
+      "cameraControlDefaultCameraFacing": 0,
+      "dynamicTextAltitude": false,
+      "dynamicTextDate": false,
+      "dynamicTextLocation": false,
+      "dynamicTextWeather": false,
+      "effectDisablesAudioPreview": false,
+      "effectDisablesMicrophone": false,
+      "effectForceAsyncScripting": false,
+      "effectForcesSynchronousScripting": false,
+      "effectHasAmbientAudio": false,
+      "effectHasAudioGraphApi": false,
+      "effectHasTriggeredAudio": false,
+      "effectImageAntiAliasingEdgeSharpness": 0.5,
+      "effectImageAntiAliasingEdgeThreshold": 0.5,
+      "effectImageAntiAliasingTechnique": 0,
+      "effectRecordingFromMic": false,
+      "effectUsesAnimationPlaybackController": false,
+      "effectUsesAssistant": false,
+      "effectUsesAudio": false,
+      "effectUsesAudioLegacyMicFork": false,
+      "effectUsesAudioMixer": false,
+      "effectUsesAudioSpatialEmitter": false,
+      "effectUsesAudioTimestamps": false,
+      "effectUsesAugmentControl": false,
+      "effectUsesAugmentGrouping": false,
+      "effectUsesAutomaticAlphaSort": false,
+      "effectUsesAutomaticInstructions": true,
+      "effectUsesBlockModulesConfigExtras": false,
+      "effectUsesBlocks": false,
+      "effectUsesBlocksDownloadable": false,
+      "effectUsesBlocksScripting": false,
+      "effectUsesBodyTracking": false,
+      "effectUsesBodyTracking2DKeyPoints": false,
+      "effectUsesBoundingBoxScripting": false,
+      "effectUsesBoundingBoxUtilities": false,
+      "effectUsesCallLayout": false,
+      "effectUsesCameraControl": false,
+      "effectUsesCameraShare": false,
+      "effectUsesComponentEvaluation": false,
+      "effectUsesComposedLocally": false,
+      "effectUsesComposedMaterial": false,
+      "effectUsesControllers": false,
+      "effectUsesCustomEngineSDK": false,
+      "effectUsesCustomFonts": false,
+      "effectUsesCustomMaterial": false,
+      "effectUsesCustomMaterialAndShaderCodeAsset": false,
+      "effectUsesCustomPipeline": false,
+      "effectUsesDSP": false,
+      "effectUsesDate": false,
+      "effectUsesDebugPatch": false,
+      "effectUsesDeltaTime": false,
+      "effectUsesDepth": false,
+      "effectUsesDepthData": false,
+      "effectUsesDepthShaderRead": false,
+      "effectUsesDeviceMotion": false,
+      "effectUsesDirectionalLightEstimation": false,
+      "effectUsesDspAudioAnalyzer": false,
+      "effectUsesDspBitCrusher": false,
+      "effectUsesDspCompressor": false,
+      "effectUsesDspDelay": false,
+      "effectUsesDspDenoiser": false,
+      "effectUsesDspDistortion": false,
+      "effectUsesDspEnergyMeter": false,
+      "effectUsesDspModulator": false,
+      "effectUsesDspParametricEqualizer": false,
+      "effectUsesDspPitchShifter": false,
+      "effectUsesDspReverb": false,
+      "effectUsesDspVocoder": false,
+      "effectUsesDynamicExtrusion": false,
+      "effectUsesDynamicInstructions": false,
+      "effectUsesDynamicText": false,
+      "effectUsesEmbeddedVideo": false,
+      "effectUsesEnvironmentTexturePatch": false,
+      "effectUsesExperienceControl": false,
+      "effectUsesExternalBlocks": false,
+      "effectUsesExternalFonts": false,
+      "effectUsesExternalMeshes": false,
+      "effectUsesExternalMusicSelection": false,
+      "effectUsesExternalTextures": false,
+      "effectUsesExternalVideo": false,
+      "effectUsesExternalVideoStream": false,
+      "effectUsesFBA": false,
+      "effectUsesFaceDistortion": false,
+      "effectUsesFaceExpression52Blendshapes": false,
+      "effectUsesFaceExpressionExperimental": false,
+      "effectUsesFaceExpressionFitting": false,
+      "effectUsesFaceExtraction": false,
+      "effectUsesFaceTracker": true,
+      "effectUsesFaceTracker3D": true,
+      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTrackingScripting2D": false,
+      "effectUsesFaceTrueScale": false,
+      "effectUsesFaceWave": false,
+      "effectUsesFacialExpressionRecognition": false,
+      "effectUsesFacialGestureRecognition": false,
+      "effectUsesFieldOfView": false,
+      "effectUsesFingerTracking": false,
+      "effectUsesFonts": false,
+      "effectUsesFormFactor": false,
+      "effectUsesFrameBrightness": false,
+      "effectUsesGalleryPicker": false,
+      "effectUsesGenericML": false,
+      "effectUsesGeoanchor": false,
+      "effectUsesGeoanchorAnywhere": false,
+      "effectUsesGlobalTransform": false,
+      "effectUsesGlslEs300Features": false,
+      "effectUsesGltfPbrShader": false,
+      "effectUsesGraphQL": false,
+      "effectUsesHairSegmentation": false,
+      "effectUsesHalfFloatRenderPass": false,
+      "effectUsesHandGestureKeypoints": false,
+      "effectUsesHandTracker": false,
+      "effectUsesHapticFeedback": false,
+      "effectUsesHologramTransport": false,
+      "effectUsesIdTracker": false,
+      "effectUsesIdentity": false,
+      "effectUsesImageAntiAliasing": false,
+      "effectUsesImageAssets": false,
+      "effectUsesImageBasedLighting": false,
+      "effectUsesInstantGame": false,
+      "effectUsesInstruction": false,
+      "effectUsesIntent": false,
+      "effectUsesInterEffectLinking": false,
+      "effectUsesInternalScriptingAPI": false,
+      "effectUsesIrisTracking": false,
+      "effectUsesJavaScript": false,
+      "effectUsesJavaScriptRuntimeForPatches": false,
+      "effectUsesJavaScriptScripting": false,
+      "effectUsesJavaScriptShaders": false,
+      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesJsApiGetEffectSdkVersion": false,
+      "effectUsesLandmarkAR": false,
+      "effectUsesLayers": false,
+      "effectUsesLiveStreaming": false,
+      "effectUsesLocalDiscovery": false,
+      "effectUsesLocale": false,
+      "effectUsesLocation": false,
+      "effectUsesLocationAirportData": false,
+      "effectUsesMaxParticipants": false,
+      "effectUsesMicrophone": false,
+      "effectUsesMovingTargetTracking": false,
+      "effectUsesMultipeer": false,
+      "effectUsesMultipeerMessaging": false,
+      "effectUsesMultiplane": false,
+      "effectUsesMultiplayer": false,
+      "effectUsesMultipleRenderTargets": false,
+      "effectUsesMusic": false,
+      "effectUsesNativeNavigation": false,
+      "effectUsesNativeUIControl": false,
+      "effectUsesNativeUIControlEditableText": false,
+      "effectUsesNativeUIControlPicker": false,
+      "effectUsesNativeUIControlPickerRemoteImages": false,
+      "effectUsesNativeUIControlPickerTooltip": false,
+      "effectUsesNativeUIControlRawTextInput": false,
+      "effectUsesNativeUIControlSlider": false,
+      "effectUsesNativeUIControlSliderThumbTexture": false,
+      "effectUsesNativeUIControlSliderTypeColor": false,
+      "effectUsesNativeUIControlSliderTypeProgress": false,
+      "effectUsesNetworking": false,
+      "effectUsesNetworkingScriptAPI": false,
+      "effectUsesObjectCapture": false,
+      "effectUsesObjectTracking": false,
+      "effectUsesOpticalFlow": false,
+      "effectUsesOpusCodec": false,
+      "effectUsesOverlayOutput": false,
+      "effectUsesPBRMaterial": false,
+      "effectUsesPageScopedIdentity": false,
+      "effectUsesParticipant": false,
+      "effectUsesParticleSystem": false,
+      "effectUsesPeerOutput": false,
+      "effectUsesPeerVideoStream": false,
+      "effectUsesPersistence": false,
+      "effectUsesPersistenceCaptureScope": false,
+      "effectUsesPersistenceSharedScope": false,
+      "effectUsesPersonReconstruction": false,
+      "effectUsesPersonalization": false,
+      "effectUsesPhysics": false,
+      "effectUsesPhysicsSync": false,
+      "effectUsesPlaneTrackerTrackTextureAPI": false,
+      "effectUsesPlatformEvents": false,
+      "effectUsesPlatformEventsDocumentScoped": false,
+      "effectUsesPlatformFunctions": false,
+      "effectUsesPlatformTextures": false,
+      "effectUsesPlaybackInfo": false,
+      "effectUsesPointCloudVisualization": false,
+      "effectUsesPortalPose": false,
+      "effectUsesPreciseLocation": false,
+      "effectUsesPreviewCaptureOutputs": false,
+      "effectUsesRGBCameraTexture": false,
+      "effectUsesRTRMapping": false,
+      "effectUsesRealScaleEstimation": false,
+      "effectUsesRealScaleEstimationWithFallback": false,
+      "effectUsesRecognition": false,
+      "effectUsesRecognitionTracking": false,
+      "effectUsesRecordedSignalsForSamplers": false,
+      "effectUsesRemote3DModels": false,
+      "effectUsesRemoteMaps": false,
+      "effectUsesRenderPasses": false,
+      "effectUsesRenderSettingsHigh": false,
+      "effectUsesRingTryOn": false,
+      "effectUsesRotateVector": false,
+      "effectUsesSceneDepth": false,
+      "effectUsesSceneDepthWithFallback": false,
+      "effectUsesSceneObjectTags": false,
+      "effectUsesSceneRenderPassResolutionAspectRatio": false,
+      "effectUsesScriptAnalytics": false,
+      "effectUsesScriptingDynamicInstantiation": false,
+      "effectUsesSegmentation": false,
+      "effectUsesSegmentationType": false,
+      "effectUsesShaderCode": false,
+      "effectUsesShaderPicking": false,
+      "effectUsesShadows": false,
+      "effectUsesSkinSegmentation": false,
+      "effectUsesSkinSmoothing": false,
+      "effectUsesSpatialGesture": false,
+      "effectUsesSpatialHandTracking": false,
+      "effectUsesSplitScreen": false,
+      "effectUsesStaticTargetTracking": false,
+      "effectUsesStyleTransfer": false,
+      "effectUsesSupportedOrientations": false,
+      "effectUsesSvg": false,
+      "effectUsesSyncScripting": false,
+      "effectUsesTargetRecognition": false,
+      "effectUsesTextAssets": false,
+      "effectUsesTextCaptions": false,
+      "effectUsesTextExtrusion": false,
+      "effectUsesToasterTracking": false,
+      "effectUsesTouchGestures": false,
+      "effectUsesTwoDimensionalText": false,
+      "effectUsesTypeScript": false,
+      "effectUsesUnifiedTargetTracking": false,
+      "effectUsesVariadicMath": true,
+      "effectUsesVertexTextureFetch": false,
+      "effectUsesViperDebug": false,
+      "effectUsesVisualShaders": false,
+      "effectUsesVisualShadersSdf": false,
+      "effectUsesWarpPostProcessor": false,
+      "effectUsesWarpPreProcessor": false,
+      "effectUsesWarpSmoothing": true,
+      "effectUsesWeather": false,
+      "effectUsesWebPTexture": false,
+      "effectUsesWolf": false,
+      "effectUsesWorldMap": false,
+      "effectUsesWorldTracker": false,
+      "effectUsesWorldTrackerEnvironmentLight": false,
+      "effectUsesWorldTrackerJSAPI": false,
+      "effectUsesWorldTrackingWorldMap": false,
+      "effectUsesWriteableSignalSource": false,
+      "engineSDKVersion": "158.0",
+      "externalTexturesWhitelistedDomains": null,
+      "faceExpressionFittingMinVersion": 15,
+      "faceExpressionFittingRTRRetargetingMinVersion": 1,
+      "faceTrackerIsEnabled": false,
+      "faceTrackerMaxFaces": 1,
+      "faceTrackerMinVersion": 10,
+      "facewaveMinVersion": 1,
+      "geoanchorLatitudes": [],
+      "geoanchorLongitudes": [],
+      "hairSegmentationMinVersion": 1,
+      "handTrackerMaxHands": 2,
+      "handTrackerMinVersion": 3,
+      "identifier": "manifest:3358034-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "instructionFindAnImageBackCameraEnabled": true,
+      "instructionFindAnImageFrontCameraEnabled": true,
+      "instructionFindBodyBackCameraEnabled": true,
+      "instructionFindBodyFrontCameraEnabled": true,
+      "instructionFindFaceBackCameraEnabled": true,
+      "instructionFindFaceFrontCameraEnabled": true,
+      "instructionFindHandBackCameraEnabled": true,
+      "instructionFindHandFrontCameraEnabled": true,
+      "instructionFindPersonBackCameraEnabled": true,
+      "instructionFindPersonFrontCameraEnabled": true,
+      "instructionTokens": null,
+      "interEffectLinkingEffectIds": null,
+      "internalScriptingAPIDelay": false,
+      "internalScriptingAPIDeprecatedParticles": false,
+      "internalScriptingAPIEventStream": false,
+      "internalScriptingAPIExperimentalCameraInfo": false,
+      "internalScriptingAPIGlobalTransform": false,
+      "landmarkID": null,
+      "landmarkMeshID": null,
+      "landmarkMeshType": null,
+      "liveEffectSupportsNonLive": false,
+      "manuallyEnabledItemsIds": null,
+      "maxParticipantsCount": 0,
+      "modelName": "manifest",
+      "multiclassSegmentationMinVersion": 3004,
+      "objectTrackerMaxObjects": 1,
+      "persistenceWhitelistedKeys": null,
+      "personalizationSpecialOccasion": 0,
+      "platformUsage": {},
+      "recognitionMinVersion": 2,
+      "ringTryOnMinVersion": 1,
+      "sceneDepthMinVersion": 1,
+      "sceneDepthWithFallbackMinVersion": 1,
+      "segmentationMinVersion": 2,
+      "shaderPostProcessor": false,
+      "shaderPreProcessor": false,
+      "supportsLandscape": false,
+      "supportsPortrait": true,
+      "supportsWildcardDomainsWhitelisting": false,
+      "targetRecognitionMinVersion": 2,
+      "touchGesturesSupportsLongPress": false,
+      "touchGesturesSupportsPan": false,
+      "touchGesturesSupportsPinch": false,
+      "touchGesturesSupportsRawTouch": false,
+      "touchGesturesSupportsRotate": false,
+      "touchGesturesSupportsTap": false,
+      "whitelistedDomains": null,
+      "worldTrackerBackCameraEnabled": true,
+      "worldTrackerFrontCameraEnabled": true,
+      "worldTrackerMode": 0,
+      "worldTrackerUsesFaceTracker": false
+    },
+    {
+      "identifier": "asset_attributions_model:3358036-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "asset_attributions_model"
+    },
+    {
+      "identifier": "licenses_model:3358038-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "licenses_model"
+    },
+    {
+      "identifier": "playback_controllers_model:3358040-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "playback_controllers_model"
+    },
+    {
+      "identifier": "block_documents_model:3358042-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "block_documents_model"
+    },
+    {
+      "identifier": "target:3358044-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "target",
+      "targetPlatforms": [
+        "facebook",
+        "instagram"
+      ],
+      "targetUseCases": []
+    },
+    {
+      "identifier": "block_instances_model:3358046-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "block_instances_model"
+    },
+    {
+      "identifier": "vectorImages:3358048-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "vectorImages"
+    },
+    {
+      "identifier": "sounds:3358050-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "sounds"
+    },
+    {
+      "identifier": "color_luts_data_model:3358052-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "color_luts_data_model"
+    },
+    {
+      "forceStrictModeCompilation": false,
+      "identifier": "scripting_config_model:3358054-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "isStrictModeChangeable": false,
+      "modelName": "scripting_config_model"
+    },
+    {
+      "identifier": "assistant_model:3358056-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "assistant_model"
+    },
+    {
+      "identifier": "form_factor_settings_model:3358058-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+      "modelName": "form_factor_settings_model"
+    }
+  ],
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 158
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "documentType": 1,
+  "id": "33579844fe7c511d4474f3c82af988efcb5cea9",
+  "identifier": "document:3357986-4fe7c511-d447-4f3c-82af-988efcb5cea9",
+  "measurementUnit": 0,
+  "modelName": "document",
+  "name": "Effect",
+  "objects": [],
+  "revision": "33579854fe7c511d4474f3c82af988efcb5cea9",
+  "usingPatchesV2": false,
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 158
+  }
+}
